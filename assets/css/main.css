@@ -2060,3 +2060,27 @@ section,
 .service-item .icon:hover img {
   transform: scale(1.2);
 }
+
+.service-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.service-figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* optional */
+}
+
+.service-figure figcaption {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #333; /* adjust to your theme */
+}
+.service-figure img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
