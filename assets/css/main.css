@@ -2156,6 +2156,8 @@ section,
   height: 100vh;
   width: 100%;
   overflow: hidden;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .hero-slide {
@@ -2177,11 +2179,11 @@ section,
 
 .hero-slide .caption {
   position: relative;
-  color: #fff;
   text-align: center;
   z-index: 2;
   max-width: 800px;
   padding: 20px;
+  /* Remove color: #fff; */
 }
 
 .hero-slide .caption h1 {
@@ -2199,11 +2201,23 @@ section,
   padding: 12px 30px;
   font-size: 1rem;
 }
-</style>
 
-.hero-section {
-  margin-top: -80px;
+/* Slide-specific colors */
+.slide-1-caption h1,
+.slide-1-caption p {
+  color: #ffffff;
 }
+
+.slide-2-caption h1,
+.slide-2-caption p {
+  color: #00ff3c;
+}
+
+.slide-3-caption h1,
+.slide-3-caption p {
+  color: #007BFF;
+}
+</style>
 header.header {
   margin-bottom: 0;
 }
