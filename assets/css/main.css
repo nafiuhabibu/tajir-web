@@ -2147,3 +2147,26 @@ section,
   opacity: 0;
   pointer-events: none;
 }
+/*--------------------------------------------------------------
+# carousal slide
+--------------------------------------------------------------*/
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.carousel-caption h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.carousel-caption p {
+  color: #ddd;
+}
+
+.carousel-caption .btn {
+  background-color: #007bff;
+  border: none;
+}
