@@ -2200,3 +2200,7 @@ section,
   font-size: 1rem;
 }
 </style>
+
+.hero-section {
+  margin-top: -80px;
+}
